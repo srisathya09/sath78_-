@@ -1,0 +1,9 @@
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Name:sathiyasri");
+    System.out.println("Class:2B.com(PA)");
+    System.out.println("Department:Commerce");
+    System.out.println("Collage:VICAS");
+    System.out.println("Place:elayampalayam");
+  }
+}
