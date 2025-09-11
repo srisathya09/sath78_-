@@ -1,0 +1,8 @@
+public class Main {
+  public static void main(String[] args) {
+    int x = 44;
+    int y = 2;
+    int Division = x / y;
+    System.out.println(Division); // Print the sum of x + y
+  }
+}
