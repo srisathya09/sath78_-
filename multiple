@@ -1,0 +1,8 @@
+public class Main {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 9;
+    int Multiplication = x * y;
+    System.out.println(Multiplication); // Print the sum of x + y
+  }
+}
