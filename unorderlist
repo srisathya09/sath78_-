@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The ul element</h1>
+
+<ul>
+  <li>sathiyasri</li>
+  <li>monika.t</li>
+  <li>balaharini</li>
+  <li>harshini</li>
+  <li>bru</li>
+  <li>praga</li>
+  <li>monika.m</li>
+</ul>
+
+</body>
+</html>
