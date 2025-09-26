@@ -1,0 +1,103 @@
+/* Global body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url(./pngtree-business-technology-light-effect-6g-light-circuit-big-data-laser-electronic-picture-image_2026286.jpg) no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Form container styling */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Form header */
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+}
+
+/* Input and textarea styling */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    background-color: #e6f7ff;
+}
+
+/* Button styling */
+button {
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: translateY(-3px); /* Button hover lift effect */
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+        max-width: 90%;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    input, textarea {
+        font-size: 14px;
+    }
+    
+    button {
+        font-size: 14px;
+    }
+}
